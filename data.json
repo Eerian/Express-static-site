@@ -1,0 +1,60 @@
+{
+    "projects": [{
+            "id": 0,
+            "project_name": "Interactive Form",
+            "description": "A fictional booking form",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://erionpali.com/Interactive-Form/",
+            "github_link": "https://github.com/Eerian/Interactive-Form",
+            "images": [
+                "/static/img/InteractiveFormMain.png",
+                "/static/img/InteractiveForm1.png",
+                "/static/img/InteractiveForm2.png",
+                "/static/img/InteractiveForm3.png"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Pagination",
+            "description": "Paginate a list of persons",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://erionpali.com/List-Pagination/",
+            "github_link": "https://github.com/Eerian/List-Pagination",
+            "images": [
+                "/static/img/PaginationMain.png",
+                "/static/img/Pagination1.png",
+                "/static/img/Pagination2.png",
+                "/static/img/Pagination3.png"
+            ]
+
+        },
+        {
+            "id": 2,
+            "project_name": "Public API",
+            "description": "A fictional company employee directory",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://erionpali.com/Public-API-requests/",
+            "github_link": "https://github.com/Eerian/Public-API-requests",
+            "images": [
+                "/static/img/PublicAPIMain.png",
+                "/static/img/PublicAPI1.png",
+                "/static/img/PublicAPI2.png",
+                "/static/img/PublicAPI3.png"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter",
+            "description": "A wheel of fortune type game",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://erionpali.com/Phrase-hunter-game/",
+            "github_link": "https://github.com/Eerian/Phrase-hunter-game",
+            "images": [
+                "/static/img/PhraseHunterMain.png",
+                "/static/img/PhraseHunter1.png",
+                "/static/img/PhraseHunter2.png",
+                "/static/img/PhraseHunter3.png"
+            ]
+        }
+    ]
+}
