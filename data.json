@@ -2,7 +2,7 @@
     "projects": [{
             "id": 0,
             "project_name": "Interactive Form",
-            "description": "A fictional booking form",
+            "description": "A fictional conference booking and registration form with multiple payment methods",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://erionpali.com/Interactive-Form/",
             "github_link": "https://github.com/Eerian/Interactive-Form",
@@ -16,7 +16,7 @@
         {
             "id": 1,
             "project_name": "Pagination",
-            "description": "Paginate a list of persons",
+            "description": "Automatically Paginate a given list of persons",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://erionpali.com/List-Pagination/",
             "github_link": "https://github.com/Eerian/List-Pagination",
@@ -31,7 +31,7 @@
         {
             "id": 2,
             "project_name": "Public API",
-            "description": "A fictional company employee directory",
+            "description": "A fictional company employee directory that fetches persons info from a public API",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://erionpali.com/Public-API-requests/",
             "github_link": "https://github.com/Eerian/Public-API-requests",
@@ -45,7 +45,7 @@
         {
             "id": 3,
             "project_name": "Phrase Hunter",
-            "description": "A wheel of fortune type game",
+            "description": "A wheel of fortune type game. Guess the phrase on the screen by clicking on the letters below. You get 5 lives before game over.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://erionpali.com/Phrase-hunter-game/",
             "github_link": "https://github.com/Eerian/Phrase-hunter-game",

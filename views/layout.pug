@@ -14,26 +14,28 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='https://placehold.it/550x350')
+            img.thumbnail(src='/static/img/profile-pic.png')
           .cell.auto
 
-            //- Add your name here.
-            h5 Name
+            //- Make name clickable to main page
+            a(href='/')
+              h5 Erion Pali
 
-            //- Add text here to describe who you are, what you do, and why you are so awesome.
+            //- 
             p.text-light
-              | Description
+              | Web developer from New York City with a passion for all things code. Mostly self taught and learning daily.
+              | Building things from nothing is a joy in and of itself.
 
-            //- Add about page route to the href below. 
-            a(href='') Learn More →
+            //- Link to about page
+            a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here.  This is for the mobile screen sized version.
-          span.title-bar-title Name
+          
+          span.title-bar-title Erion Pali
       block content
         
 
