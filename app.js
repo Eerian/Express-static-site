@@ -24,8 +24,16 @@ app.get('/about', (req, res) => {
 
 
 //projects
-app.get('/project', (req, res) => {
-    res.render('project');
+app.get('/project/:id', (req, res) => {
+    const project = projectData.find(project => project.id === parseInt(req.params.id));
+    res.render('project', {
+        title: project.project_name,
+        description: project.description,
+        technologies: project.technologies,
+        live_link: project.live_link,
+        github_repo: project.github_link,
+        projectImages: project.images
+    });
 });
 
 
