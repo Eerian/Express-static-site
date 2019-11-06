@@ -37,6 +37,20 @@ app.get('/project/:id', (req, res) => {
 });
 
 
+//Create an error object
+//Error page not found 404
+app.use((req, res, next) => {
+    const err = new Error('Page does not exist...');
+    err.status = 404;
+    next(err);
+});
+
+//Error handling
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status);
+    res.render('error');
+});
 
 
 
