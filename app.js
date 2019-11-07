@@ -23,17 +23,24 @@ app.get('/about', (req, res) => {
 });
 
 
-//projects
-app.get('/project/:id', (req, res) => {
+//projects with error handler for projects
+app.get('/project/:id', (req, res, next) => {
     const project = projectData.find(project => project.id === parseInt(req.params.id));
-    res.render('project', {
-        title: project.project_name,
-        description: project.description,
-        technologies: project.technologies,
-        live_link: project.live_link,
-        github_repo: project.github_link,
-        projectImages: project.images
-    });
+    if (project) {
+        res.render('project', {
+            title: project.project_name,
+            description: project.description,
+            technologies: project.technologies,
+            live_link: project.live_link,
+            github_repo: project.github_link,
+            projectImages: project.images
+        });
+    } else {
+        const err = new Error('Project does not exist...');
+        err.status = 404;
+        next(err);
+    }
+
 });
 
 
