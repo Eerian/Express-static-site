@@ -156,3 +156,27 @@ a:hover {
 .portfolio-bio {
     line-height: 25px;
 }
+
+
+/* EXTRA STYLES */
+
+#name-logo {
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+/* font */
+
+h1,
+h5 {
+    font-family: 'Kalam', cursive;
+}
+
+
+/* Box shadow on front page images */
+
+.portfolio-index .cell img {
+    box-shadow: 10px 8px 6px -6px black;
+}
